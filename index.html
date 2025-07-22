@@ -1,4 +1,268 @@
-<!doctypehtml><html lang="en"><meta charset="UTF-8"><meta content="width=device-width,initial-scale=1"name="viewport"><title>VTR - Vision to Reality</title><link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"rel="stylesheet"><script defer src="https://cdn.jsdelivr.net/npm/alpinejs"></script><style>html{scroll-behavior:smooth}@keyframes fade-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fade-in 1s ease-out forwards}.scroll-down{animation:bounce 2s infinite}@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}.animate-fade-in-down{animation:fade-in-down .3s ease-out both}@keyframes fade-in-down{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}</style><body class="text-white bg-blackhea font-sans scroll-smooth"><script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script><header class="text-yellow-400 bg-black p-4 shadow-md sticky top-0 z-50"x-data="{ open: false }"><div class="flex items-center justify-between max-w-7xl mx-auto"><a class="text-yellow-400 font-bold animate-pulse text-2xl"href="#home">VTR</a><button class="md:hidden focus:outline-none"@click="open = !open"><svg class="text-yellow-400 h-6 w-6"fill="none"viewBox="0 0 24 24"stroke="currentColor"x-show="!open"x-transition xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16"stroke-linecap="round"stroke-linejoin="round"stroke-width="2"/></svg> <svg class="text-yellow-400 h-6 w-6"fill="none"viewBox="0 0 24 24"stroke="currentColor"x-show="open"x-transition xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12"stroke-linecap="round"stroke-linejoin="round"stroke-width="2"/></svg></button><nav class="hidden md:flex space-x-6"><a class="hover:text-white"href="#home">Home</a> <a class="hover:text-white"href="services.html">Services</a> <a class="hover:text-white"href="gallery.html">Gallery</a> <a class="hover:text-white"href="contact.html">Contact</a></nav></div><div class="text-center px-4 md:hidden mt-4 space-y-2"x-show="open"x-cloak x-transition:enter="transition ease-out duration-300"x-transition:enter-end="opacity-100 translate-y-0"x-transition:enter-start="opacity-0 -translate-y-4"x-transition:leave="transition ease-in duration-200"x-transition:leave-end="opacity-0 -translate-y-4"x-transition:leave-start="opacity-100 translate-y-0"><a class="hover:text-white block py-2"href="#home"@click="open = false">Home</a> <a class="hover:text-white block py-2"href="services.html"@click="open = false">Services</a> <a class="hover:text-white block py-2"href="gallery.html"@click="open = false">Gallery</a> <a class="hover:text-white block py-2"href="contact.html"@click="open = false">Contact</a></div></header><section class="h-screen overflow-hidden relative w-full"id="home"><video autoplay class="left-0 absolute h-full object-cover top-0 w-full z-0"loop muted playsinline><source src="./Images/Video/Full.mp4"type="video/mp4"></video><div class="bg-black absolute bg-opacity-50 inset-0 z-10"></div><div class="text-center px-4 flex flex-col h-full items-center justify-center relative z-20"><img alt="VTR Logo"class="shadow-lg rounded-md mb-6 w-40"src="./Images/logo trasperent.png"><h1 class="text-yellow-400 font-bold animate-fade-in mb-4 text-5xl">Vision To Reality</h1><p class="delay-200 animate-fade-in mb-6 text-gray-200 text-xl">Architectural & Interior Excellence</p><a class="px-6 bg-yellow-400 hover:bg-yellow-500 text-black transition font-semibold py-3 rounded-full"href="services.html">Explore Services</a><div class="mt-10 scroll-down"><a class="text-yellow-400 text-4xl"href="#why-choose">▼</a></div></div></section><section class="text-center bg-black py-20"id="why-choose"><h2 class="text-yellow-400 font-bold animate-pulse mb-12 sm:text-5xl text-4xl tracking-wide">Why Choose VTR</h2><div class="px-4 gap-10 grid grid-cols-1 lg:grid-cols-4 lg:px-20 md:px-10 sm:grid-cols-2 sm:px-6 text-white"><div class="duration-500 bg-gray-900 flex flex-col group hover:bg-gray-800 hover:scale-105 hover:shadow-2xl items-center p-6 rounded-xl transform transition"><img alt="Creative Designs"class="mb-4 group-hover:animate-bounce h-20 w-20"src="https://img.icons8.com/?size=100&id=114248&format=png&color=000000"><p class="duration-300 font-semibold group-hover:text-yellow-400 text-center text-lg text-yellow-300 transition-colors">Creative Designs</div><div class="duration-500 bg-gray-900 flex flex-col group hover:bg-gray-800 hover:scale-105 hover:shadow-2xl items-center p-6 rounded-xl transform transition"><img alt="On-Time Delivery"class="mb-4 group-hover:animate-bounce h-20 w-20"src="https://img.icons8.com/doodle/96/calendar--v2.png"><p class="duration-300 font-semibold group-hover:text-yellow-400 text-center text-lg text-yellow-300 transition-colors">On-Time Delivery</div><div class="duration-500 bg-gray-900 flex flex-col group hover:bg-gray-800 hover:scale-105 hover:shadow-2xl items-center p-6 rounded-xl transform transition"><img alt="Experienced Team"class="mb-4 group-hover:animate-bounce h-20 w-20"src="https://img.icons8.com/doodle/96/conference-call--v2.png"><p class="duration-300 font-semibold group-hover:text-yellow-400 text-center text-lg text-yellow-300 transition-colors">Experienced Team</div><div class="duration-500 bg-gray-900 flex flex-col group hover:bg-gray-800 hover:scale-105 hover:shadow-2xl items-center p-6 rounded-xl transform transition"><img alt="Budget Friendly"class="mb-4 group-hover:animate-bounce h-20 w-20"src="https://img.icons8.com/doodle/96/money--v1.png"><p class="duration-300 font-semibold group-hover:text-yellow-400 text-center text-lg text-yellow-300 transition-colors">Budget Friendly</div></div></section><section class="text-center py-20 bg-gray-900 text-white"><h2 class="text-yellow-400 font-bold text-3xl animate-pulse mb-12 md:text-4xl">Our Achievements</h2><div class="px-6 gap-10 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 sm:px-10"><div class="duration-300 flex flex-col hover:scale-105 items-center space-y-2 transform transition-transform"><img alt="Projects"class="animate-bounce h-16 mb-2 w-16"src="https://img.icons8.com/doodle/96/folder-invoices--v2.png"><h3 class="text-yellow-400 text-4xl font-extrabold">300+</h3><p class="text-lg">Projects</div><div class="duration-300 flex flex-col hover:scale-105 items-center space-y-2 transform transition-transform"><img alt="Years Experience"class="animate-bounce h-16 mb-2 w-16"src="https://img.icons8.com/?size=100&id=98991&format=png&color=000000"><h3 class="text-yellow-400 text-4xl font-extrabold">5+</h3><p class="text-lg">Years Experience</div><div class="duration-300 flex flex-col hover:scale-105 items-center space-y-2 transform transition-transform"><img alt="Happy Clients"class="animate-bounce h-16 mb-2 w-16"src="https://img.icons8.com/?size=100&id=112789&format=png&color=000000"><h3 class="text-yellow-400 text-4xl font-extrabold">200+</h3><p class="text-lg">Happy Clients</div><div class="duration-300 flex flex-col hover:scale-105 items-center space-y-2 transform transition-transform"><img alt="Experts"class="animate-bounce h-16 mb-2 w-16"src="https://img.icons8.com/?size=100&id=nhzjWG4IPcGO&format=png&color=000000"><h3 class="text-yellow-400 text-4xl font-extrabold">15+</h3><p class="text-lg">Experts</div></div></section><section class="text-yellow-400 bg-black px-6 py-20"id="our-work"><div class="max-w-7xl mx-auto"><h2 class="text-center animate-pulse font-extrabold mb-12 text-4xl text-gold tracking-wide">Our Works</h2><div class="gap-6 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2"><a class="group relative"href="#work1"><img alt="Work Image 1"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/1.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work2"><img alt="Work Image 2"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/17.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work3"><img alt="Work Image 3"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/2.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work2"><img alt="Work Image 2"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/7.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work3"><img alt="Work Image 3"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/3.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work3"><img alt="Work Image 3"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/9.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work2"><img alt="Work Image 2"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/13.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a><a class="group relative"href="#work3"><img alt="Work Image 3"class="rounded-lg w-full duration-500 grayscale group-hover:grayscale-0 group-hover:scale-105 group-hover:shadow-2xl h-60 object-cover transition-transform"src="./Images/14.jpg"><div class="rounded-lg absolute bg-gradient-to-t duration-300 from-black/60 group-hover:opacity-100 inset-0 opacity-0 to-transparent transition via-black/20"></div></a></div></div></section><section class="text-center bg-black py-20"x-data="{ email: '', success: false }"><h2 class="text-yellow-400 font-bold text-3xl mb-6">Stay Updated</h2><p class="mb-4 text-gray-300">Subscribe to our newsletter for design inspiration and updates.<form @submit.prevent="
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VTR - Vision to Reality</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
+  <style>
+      html {
+    scroll-behavior: smooth;
+  }
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 1s ease-out forwards;
+    }
+    .scroll-down {
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(10px); }
+    }
+
+    .animate-fade-in-down {
+    animation: fade-in-down 0.3s ease-out both;
+  }
+
+  @keyframes fade-in-down {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  </style>
+</head>
+<body class="bg-blackhea text-white font-sans scroll-smooth">
+<!-- Alpine.js must be included in your HTML file -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<!-- Header -->
+
+
+<header class="sticky top-0 z-50 bg-black text-yellow-400 p-4 shadow-md" x-data="{ open: false }">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <a href="#home" class="text-2xl font-bold text-yellow-400 animate-pulse">VTR</a>
+
+    <!-- Mobile Toggle Button -->
+    <button @click="open = !open" class="sm:hidden focus:outline-none">
+      <!-- Hamburger Icon -->
+      <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" fill="none"
+        viewBox="0 0 24 24" stroke="currentColor" x-transition>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+
+      <!-- Close Icon -->
+      <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" fill="none"
+        viewBox="0 0 24 24" stroke="currentColor" x-transition>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-6">
+      <a href="#home" class="hover:text-white">Home</a>
+      <a href="services.html" class="hover:text-white">Services</a>
+      <a href="gallery.html" class="hover:text-white">Gallery</a>
+      <a href="contact.html" class="hover:text-white">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Mobile Dropdown Menu with Smooth Slide/Fade -->
+  <div x-show="open"
+       x-transition:enter="transition ease-out duration-300"
+       x-transition:enter-start="opacity-0 -translate-y-4"
+       x-transition:enter-end="opacity-100 translate-y-0"
+       x-transition:leave="transition ease-in duration-200"
+       x-transition:leave-start="opacity-100 translate-y-0"
+       x-transition:leave-end="opacity-0 -translate-y-4"
+       class="md:hidden mt-4 px-4 space-y-2 text-center"
+       x-cloak>
+    <a href="#home" @click="open = false" class="block py-2 hover:text-white">Home</a>
+    <a href="services.html" @click="open = false" class="block py-2 hover:text-white">Services</a>
+    <a href="gallery.html" @click="open = false" class="block py-2 hover:text-white">Gallery</a>
+    <a href="contact.html" @click="open = false" class="block py-2 hover:text-white">Contact</a>
+  </div>
+</header>
+
+
+<!-- Hero Section -->
+<section id="home" class="relative h-[65vh] sm:h-[75vh] md:h-[85vh] lg:h-screen w-full overflow-hidden">
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-[65vh] sm:h-[75vh] md:h-[85vh] lg:h-screen object-cover z-0">
+    <source src="./Images/Video/Full.mp4" type="video/mp4" />
+  </video>
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+
+  <!-- Content -->
+  <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6">
+    
+    <!-- Logo -->
+    <img src="./Images/logo trasperent.png" alt="VTR Logo" 
+         class="w-24 sm:w-32 mt-5 mb-3 sm:mb-5 rounded-md shadow-lg">
+
+    <!-- Title -->
+    <h1 class="text-2xl sm:text-4xl font-bold text-yellow-400 mb-2 sm:mb-4 animate-fade-in">
+      Vision To Reality
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-sm mb-5 sm:text-lg text-gray-200 mb-4 sm:mb-5 animate-fade-in delay-200">
+      Architectural & Interior Excellence
+    </p>
+
+    <!-- Button -->
+    <a href="services.html" 
+       class="bg-yellow-400 text-black px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base rounded-full font-semibold hover:bg-yellow-500 transition">
+      Explore Services
+    </a>
+
+    <!-- Scroll Icon -->
+    <div class="mt-5 sm:mt-8 scroll-down">
+      <a href="#why-choose" class="text-yellow-400 text-2xl sm:text-3xl">&#x25BC;</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Why Choose Us -->
+<section id="why-choose" class="py-20 bg-black text-center">
+  <h2 class="text-4xl sm:text-5xl font-bold mb-12 text-yellow-400 tracking-wide animate-pulse">Why Choose VTR</h2>
+
+  <div class="grid gap-10 px-4 sm:px-6 md:px-10 lg:px-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-white">
+    
+    <!-- Creative Designs -->
+    <div class="group flex flex-col items-center p-6 bg-gray-900 rounded-xl hover:shadow-2xl transform transition duration-500 hover:scale-105 hover:bg-gray-800">
+      <img src="https://img.icons8.com/?size=100&id=114248&format=png&color=000000" alt="Creative Designs" class="w-20 h-20 mb-4 group-hover:animate-bounce" />
+      <p class="text-lg font-semibold text-yellow-300 group-hover:text-yellow-400 transition-colors duration-300 text-center">Creative Designs</p>
+    </div>
+
+    <!-- On-Time Delivery -->
+    <div class="group flex flex-col items-center p-6 bg-gray-900 rounded-xl hover:shadow-2xl transform transition duration-500 hover:scale-105 hover:bg-gray-800">
+      <img src="https://img.icons8.com/doodle/96/calendar--v2.png" alt="On-Time Delivery" class="w-20 h-20 mb-4 group-hover:animate-bounce" />
+      <p class="text-lg font-semibold text-yellow-300 group-hover:text-yellow-400 transition-colors duration-300 text-center">On-Time Delivery</p>
+    </div>
+
+    <!-- Experienced Team -->
+    <div class="group flex flex-col items-center p-6 bg-gray-900 rounded-xl hover:shadow-2xl transform transition duration-500 hover:scale-105 hover:bg-gray-800">
+      <img src="https://img.icons8.com/doodle/96/conference-call--v2.png" alt="Experienced Team" class="w-20 h-20 mb-4 group-hover:animate-bounce" />
+      <p class="text-lg font-semibold text-yellow-300 group-hover:text-yellow-400 transition-colors duration-300 text-center">Experienced Team</p>
+    </div>
+
+    <!-- Budget Friendly -->
+    <div class="group flex flex-col items-center p-6 bg-gray-900 rounded-xl hover:shadow-2xl transform transition duration-500 hover:scale-105 hover:bg-gray-800">
+      <img src="https://img.icons8.com/doodle/96/money--v1.png" alt="Budget Friendly" class="w-20 h-20 mb-4 group-hover:animate-bounce" />
+      <p class="text-lg font-semibold text-yellow-300 group-hover:text-yellow-400 transition-colors duration-300 text-center">Budget Friendly</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Our Achievements -->
+<section class="py-20 bg-gray-900 text-center text-white">
+  <h2 class="text-3xl md:text-4xl font-bold mb-12 text-yellow-400 animate-pulse">
+    Our Achievements
+  </h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-6 sm:px-10">
+    
+   <!-- Projects -->
+   <div class="flex flex-col items-center space-y-2 transition-transform duration-300 transform hover:scale-105">
+    <img src="https://img.icons8.com/doodle/96/folder-invoices--v2.png" alt="Projects" class="w-16 h-16 mb-2 animate-bounce" />
+    <h3 class="text-4xl font-extrabold text-yellow-400">300+</h3>
+    <p class="text-lg">Projects</p>
+  </div>
+
+  <!-- Years Experience -->
+  <div class="flex flex-col items-center space-y-2 transition-transform duration-300 transform hover:scale-105">
+    <img src="https://img.icons8.com/?size=100&id=98991&format=png&color=000000" alt="Years Experience" class="w-16 h-16 mb-2 animate-bounce" />
+    <h3 class="text-4xl font-extrabold text-yellow-400">5+</h3>
+    <p class="text-lg">Years Experience</p>
+  </div>
+
+  <!-- Happy Clients -->
+  <div class="flex flex-col items-center space-y-2 transition-transform duration-300 transform hover:scale-105">
+    <img src="https://img.icons8.com/?size=100&id=112789&format=png&color=000000" alt="Happy Clients" class="w-16 h-16 mb-2 animate-bounce" />
+    <h3 class="text-4xl font-extrabold text-yellow-400">200+</h3>
+    <p class="text-lg">Happy Clients</p>
+  </div>
+
+  <!-- Experts -->
+  <div class="flex flex-col items-center space-y-2 transition-transform duration-300 transform hover:scale-105">
+    <img src="https://img.icons8.com/?size=100&id=nhzjWG4IPcGO&format=png&color=000000" alt="Experts" class="w-16 h-16 mb-2 animate-bounce" />
+    <h3 class="text-4xl font-extrabold text-yellow-400">15+</h3>
+    <p class="text-lg">Experts</p>
+  </div>
+
+  </div>
+</section>
+
+<!-- Our Work Section -->
+<section id="our-work" class="py-20 px-6 bg-black text-yellow-400 ">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-extrabold text-center text-gold mb-12 tracking-wide animate-pulse">Our Works</h2>
+
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Image Box -->
+      <a href="#work1" class="relative group">
+        <img src="./Images/1.jpg" alt="Work Image 1" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work2" class="relative group">
+        <img src="./Images/17.jpg" alt="Work Image 2" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work3" class="relative group">
+        <img src="./Images/2.jpg" alt="Work Image 3" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work2" class="relative group">
+        <img src="./Images/7.jpg" alt="Work Image 2" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work3" class="relative group">
+        <img src="./Images/3.jpg" alt="Work Image 3" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work3" class="relative group">
+        <img src="./Images/9.jpg" alt="Work Image 3" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work2" class="relative group">
+        <img src="./Images/13.jpg" alt="Work Image 2" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <a href="#work3" class="relative group">
+        <img src="./Images/14.jpg" alt="Work Image 3" class="w-full h-60 object-cover rounded-lg transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:grayscale-0 grayscale" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 rounded-lg"></div>
+      </a>
+      <!-- Add more as needed -->
+    </div>
+  </div>
+</section>
+
+
+<!-- Newsletter Section -->
+<section class="py-20 bg-black text-center" x-data="{ email: '', success: false }">
+  <h2 class="text-3xl font-bold mb-6 text-yellow-400">Stay Updated</h2>
+  <p class="mb-4 text-gray-300">Subscribe to our newsletter for design inspiration and updates.</p>
+
+  <form 
+    @submit.prevent="
       if (email.includes('@')) {
         success = true;
         // OPTIONAL: Use FormSubmit to email the data to you
@@ -10,7 +274,104 @@
         email = '';
         setTimeout(() => success = false, 4000);
       }
-    "class="flex flex-col items-center justify-center gap-4 md:flex-row"><input class="px-4 py-2 rounded-md focus:outline-none text-black w-72"placeholder="Your Email"required type="email"x-model="email"> <button class="py-2 rounded-md text-black bg-yellow-400 hover:bg-yellow-500 px-6 transition"type="submit">Subscribe</button></form><div class="font-medium mt-4 text-green-400"x-show="success"x-transition>✅ Thanks for subscribing! We’ll keep you posted.</div></section><section class="px-4 mx-auto animate-fade-in max-w-6xl py-10"><h2 class="text-yellow-400 font-bold text-3xl mb-6 text-center">Our Location</h2><div class="rounded-lg w-full h-[400px] overflow-hidden shadow-lg"><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4015.867047273519!2d77.24859237500935!3d8.200574891831344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInMDIuMSJOIDc3wrAxNScwNC4yIkU!5e1!3m2!1sen!2sin!4v1753168696141!5m2!1sen!2sin">width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></section><section class="bg-black fade-in py-16"id="contact"><div class="text-center px-4 max-w-4xl mx-auto"><h3 class="text-yellow-400 font-bold text-3xl mb-8">Contact Us</h3><p class="mb-4">📍 <strong>Address:</strong> XYZ Street, Nagercoil, Tamil Nadu<p class="mb-4">📞 <strong>Phone:</strong> <a class="text-yellow-400 hover:underline"href="tel:91812222119">+91 81222 2119</a> , <a class="text-yellow-400 hover:underline"href="tel:+919786970189">+91 97869 70189</a><p>📧 <strong>Email:</strong> <a class="text-yellow-400 hover:underline"href="mailto:vtr.archdesign@gmail.com">vtr.archdesign@gmail.com</a></div></section><div class="flex flex-col bottom-6 fixed gap-3 items-end right-4 z-50"x-data="{ open: false }"><button class="shadow-lg hover:scale-110 p-3 rounded-full transition bg-green-500"@click="open = !open"><img alt="WhatsApp"class="h-6 w-6"src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png"></button><div class="px-4 py-2 rounded-md bg-white shadow-lg space-y-1 text-gray-800 text-sm w-52"x-show="open"x-cloak x-transition:enter="transition ease-out duration-300"x-transition:enter-end="opacity-100 scale-100 translate-y-0"x-transition:enter-start="opacity-0 scale-95 translate-y-2"x-transition:leave="transition ease-in duration-200"x-transition:leave-end="opacity-0 scale-95 translate-y-2"x-transition:leave-start="opacity-100 scale-100 translate-y-0"><a class="hover:text-green-600 block"href="https://wa.me/91812222119"target="_blank">📞 +91 81222 2119</a> <a class="hover:text-green-600 block"href="https://wa.me/919786970189"target="_blank">📞 +91 97869 70189</a></div><a class="shadow-lg hover:scale-110 p-3 rounded-full transition bg-pink-600"href="https://instagram.com/vtr__official"target="_blank"><svg class="h-6 w-6 text-white"fill="currentColor"viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm4.5 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z"/></svg></a></div><footer class="text-center bg-black py-4 text-gray-500 text-sm">© 2025 VTR – Vision To Reality. All Rights Reserved.</footer><script>const toggleBtn = document.getElementById("whatsappToggle");
+    "
+    class="flex justify-center flex-col md:flex-row items-center gap-4"
+  >
+    <input 
+      type="email" 
+      x-model="email" 
+      placeholder="Your Email" 
+      class="px-4 py-2 w-72 rounded-md focus:outline-none text-black" 
+      required 
+    />
+    <button 
+      type="submit" 
+      class="bg-yellow-400 px-6 py-2 rounded-md hover:bg-yellow-500 text-black transition"
+    >
+      Subscribe
+    </button>
+  </form>
+
+  <!-- Success Message -->
+  <div 
+    x-show="success" 
+    x-transition 
+    class="mt-4 text-green-400 font-medium"
+  >
+    ✅ Thanks for subscribing! We’ll keep you posted.
+  </div>
+</section>
+
+  <!-- Google Maps Embed -->
+  <section class="py-10 px-4 max-w-6xl mx-auto animate-fade-in">
+    <h2 class="text-3xl font-bold text-yellow-400 text-center mb-6">Our Location</h2>
+    <div class="w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4015.867047273519!2d77.24859237500935!3d8.200574891831344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInMDIuMSJOIDc3wrAxNScwNC4yIkU!5e1!3m2!1sen!2sin!4v1753168696141!5m2!1sen!2sin">
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-black fade-in">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-yellow-400 mb-8">Contact Us</h3>
+      <p class="mb-4">📍 <strong>Address:</strong><a class="text-yellow-400"> Kovil Vilai, Salem C.S.I Church opposite,Anakuzhi,Palapalam (p.o),K.k District,Tamil Nadu,629159.</a></p>
+      <p class="mb-4">📞 <strong>Phone:</strong> 
+        <a href="tel:91812222119" class="text-yellow-400  hover:underline">+91 81222 2119</a> , <a href="tel:+919786970189" class="text-yellow-400 hover:underline">+91 97869 70189</a>
+      </p>
+      <p>📧 <strong>Email:</strong> <a href="mailto:vtr.archdesign@gmail.com" class="text-yellow-400 hover:underline">vtr.archdesign@gmail.com</a></p>
+    </div>
+  </section>
+
+<!-- Floating Buttons -->
+<div x-data="{ open: false }" class="fixed bottom-6 right-4 flex flex-col items-end gap-3 z-50">
+
+  <!-- WhatsApp Toggle -->
+  <button @click="open = !open" class="bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition">
+    <img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatsApp" class="w-6 h-6" />
+  </button>
+
+  <!-- WhatsApp Numbers with Smooth Transition -->
+  <div x-show="open"
+       x-transition:enter="transition ease-out duration-300"
+       x-transition:enter-start="opacity-0 scale-95 translate-y-2"
+       x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+       x-transition:leave="transition ease-in duration-200"
+       x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+       x-transition:leave-end="opacity-0 scale-95 translate-y-2"
+       class="bg-white text-sm text-gray-800 shadow-lg rounded-md px-4 py-2 w-52 space-y-1"
+       x-cloak>
+    <a href="https://wa.me/91812222119" target="_blank" class="block hover:text-green-600">📞 +91 81222 2119</a>
+    <a href="https://wa.me/919786970189" target="_blank" class="block hover:text-green-600">📞 +91 97869 70189</a>
+  </div>
+
+  <!-- Instagram Button -->
+  <a href="https://instagram.com/vtr__official" target="_blank"
+     class="bg-pink-600 p-3 rounded-full shadow-lg hover:scale-110 transition">
+    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm4.5 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z"/>
+    </svg>
+  </a>
+</div>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-4 text-sm text-gray-500">
+    &copy; 2025 VTR – Vision To Reality. All Rights Reserved.
+  </footer>
+
+</body>
+
+<!-- Java Script -->
+<script>
+  const toggleBtn = document.getElementById("whatsappToggle");
   const options = document.getElementById("whatsappOptions");
 
   toggleBtn.addEventListener("click", () => {
@@ -21,4 +382,9 @@
     if (!toggleBtn.contains(event.target) && !options.contains(event.target)) {
       options.classList.add("hidden");
     }
-  });</script>
+  });
+
+  
+</script>
+
+</html>
